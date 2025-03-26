@@ -1,8 +1,6 @@
 const btnStart = document.getElementById("click-to-Continue");
 const popup = document.querySelector(".popup-wrapper");
 
-console.log(openLetter)
-
 
 btnStart.addEventListener("click", () => {
   popup.classList.add("close");
