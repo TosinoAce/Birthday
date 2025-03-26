@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Etse's man Message</title>
+  </head>
+  <body>
+    <div class="video-container">
+      <video src="./images/VID-20250319-WA0007.mp4" controls></video>
+    </div>
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <p class="lead text-body-secondary">
+            "Here’s a little something extra to make your day even more special!
+            Tap below for a heartfelt birthday message just for you. 🎉🎂❤️".
+          </p>
+          <p>
+            <a href="#" class="btn btn-dark my-2" id="openletter"
+              >View My Letter to You</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="specialLetter close">
+      <p>
+        It is finally here!!!! my baby is 21 today and I am 21 times more
+        excited than normal. You have been a light to this world in the past 21
+        years and the 9 months that I have been a part of your shine I have been
+        in awe. This cannot be overemphasized, you are a remarkable human being.
+        You make sure everyone around you is taken care of and I know that I am
+        in safe hands with you. You came into my life and changed my definition
+        of love. You are my best friend, my companion, my gist partner, my
+        accountability partner, my prayer partner, my baby and my lover. I think
+        about our future together and there is no cause for worry because with
+        you I have peace of mind. You are my safe space and I am eternally
+        grateful to God and your family for you. I hope that I become a man that
+        is deserving of someone like you because you are the best of God’s
+        creations and I won the lottery the day you decided to be my girlfriend.
+        I look forward to the very many more beautiful memories we will make
+        together. The laughter and the cheers that will accompany us along the
+        way. I pray that God rewards you for how awesome you are because an
+        awesome person deserves awesome blessings. I pray that he raises people
+        to bless you and guide you as climb to the top. I pray that you be a
+        source of joy to your mom every single day and that whenever she and
+        your siblings think about you that they are filled with joy. I love you
+        baby and I want you to always remember that. Happy birthday my baby!
+      </p>
+      <a href="#" class="btn btn-dark my-2" id="closeletter"> Go Back</a>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const openLetter = document.getElementById("openletter");
+      const closeLetter = document.getElementById("closeletter");
+      const Letter = document.querySelector(".specialLetter");
+      openLetter.addEventListener("click", () => {
+        Letter.classList.remove("close");
+      });
+      closeLetter.addEventListener("click", () => {
+        Letter.classList.add("close");
+      });
+    </script>
+  </body>
+</html>
